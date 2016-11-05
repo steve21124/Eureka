@@ -74,7 +74,7 @@ struct SchemaType
     static let Boolean = "boolean";
     static let Array = "array";
     
-    static let `Any` = "any";
+    static let AnyObj = "any";
 }
 
 struct FormProperties {
