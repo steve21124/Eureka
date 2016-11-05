@@ -92,6 +92,7 @@
 		AA2CB66B1DCDB3AB00B7CF2B /* FormBuilderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2CB66A1DCDB3AB00B7CF2B /* FormBuilderError.swift */; };
 		AA2CB6731DCDB44800B7CF2B /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2CB6721DCDB44800B7CF2B /* Field.swift */; };
 		AA2CB6751DCDB46800B7CF2B /* FormBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2CB6741DCDB46800B7CF2B /* FormBuilder.swift */; };
+		AA2CB6771DCDB49400B7CF2B /* JSchemaFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2CB6761DCDB49400B7CF2B /* JSchemaFormViewController.swift */; };
 		FA56B6AF1DBAD38900407C94 /* RuleEqualsToRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA56B6AE1DBAD38900407C94 /* RuleEqualsToRow.swift */; };
 /* End PBXBuildFile section */
 
@@ -194,6 +195,7 @@
 		AA2CB66A1DCDB3AB00B7CF2B /* FormBuilderError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormBuilderError.swift; sourceTree = "<group>"; };
 		AA2CB6721DCDB44800B7CF2B /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
 		AA2CB6741DCDB46800B7CF2B /* FormBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormBuilder.swift; sourceTree = "<group>"; };
+		AA2CB6761DCDB49400B7CF2B /* JSchemaFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSchemaFormViewController.swift; sourceTree = "<group>"; };
 		FA56B6AE1DBAD38900407C94 /* RuleEqualsToRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RuleEqualsToRow.swift; path = Source/Validations/RuleEqualsToRow.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -390,6 +392,7 @@
 		AA2CB6411DCDA28000B7CF2B /* AutoSchema */ = {
 			isa = PBXGroup;
 			children = (
+				AA2CB6761DCDB49400B7CF2B /* JSchemaFormViewController.swift */,
 				AA2CB6741DCDB46800B7CF2B /* FormBuilder.swift */,
 				AA2CB6721DCDB44800B7CF2B /* Field.swift */,
 				AA2CB66A1DCDB3AB00B7CF2B /* FormBuilderError.swift */,
@@ -544,6 +547,7 @@
 				28EEC0231C7E3B1900300699 /* AlertRow.swift in Sources */,
 				28EEC0221C7E3B1300300699 /* ActionSheetRow.swift in Sources */,
 				AA2CB65F1DCDB31800B7CF2B /* JSchema.swift in Sources */,
+				AA2CB6771DCDB49400B7CF2B /* JSchemaFormViewController.swift in Sources */,
 				28EEBFEC1C7E224200300699 /* PresenterRowType.swift in Sources */,
 				28EEC0211C7E3AD700300699 /* TextAreaRow.swift in Sources */,
 				28EEBFFD1C7E25F100300699 /* Cell.swift in Sources */,

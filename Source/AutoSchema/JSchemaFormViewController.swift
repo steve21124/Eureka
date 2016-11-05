@@ -73,10 +73,10 @@ public class JSchemaFormViewController: FormViewController {
     }
 
     func setUIDefaults() {
-        URLRow.defaultCellUpdate = { cell, row in cell.textField.textColor = .blueColor() }
-        LabelRow.defaultCellUpdate = { cell, row in cell.detailTextLabel?.textColor = .orangeColor()  }
-        CheckRow.defaultCellSetup = { cell, row in cell.tintColor = .orangeColor() }
-        DateRow.defaultRowInitializer = { row in row.minimumDate = NSDate() as Date }
+        //URLRow.defaultCellUpdate = { cell, row in cell.textField.textColor = .blueColor() }
+        //LabelRow.defaultCellUpdate = { cell, row in cell.detailTextLabel?.textColor = .orangeColor()  }
+        //CheckRow.defaultCellSetup = { cell, row in cell.tintColor = .orangeColor() }
+        //DateRow.defaultRowInitializer = { row in row.minimumDate = NSDate() as Date }
     }
     
     override public func viewDidLoad() {
