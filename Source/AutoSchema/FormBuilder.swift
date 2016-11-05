@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import Eureka
 
 public class BuiltForm {
     public var form:Form;
@@ -56,7 +55,7 @@ public class BuiltForm {
         
     }
 
-    public func values(includeHidden includeHidden: Bool = false) -> [String: AnyObject] {
+    public func values(includeHidden: Bool = false) -> [String: AnyObject] {
         let values = form.values()
         var result = [String: AnyObject]()
         for (key,value) in values {

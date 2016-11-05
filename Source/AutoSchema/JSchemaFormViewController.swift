@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import Eureka
 
 public class JSchemaFormViewController: FormViewController {
     
@@ -90,7 +89,7 @@ public class JSchemaFormViewController: FormViewController {
         setUIDefaults();
     }
     
-    public func result(includeHidden includeHidden: Bool = false) -> FormResult? {
+    public func result(includeHidden  : Bool = false) -> FormResult? {
         guard let builtForm = _builtForm else {
             return nil;
         }
