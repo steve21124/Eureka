@@ -90,6 +90,7 @@
 		AA2CB6671DCDB38300B7CF2B /* JScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2CB6661DCDB38300B7CF2B /* JScope.swift */; };
 		AA2CB6691DCDB39800B7CF2B /* ReferenceExpander.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2CB6681DCDB39800B7CF2B /* ReferenceExpander.swift */; };
 		AA2CB66B1DCDB3AB00B7CF2B /* FormBuilderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2CB66A1DCDB3AB00B7CF2B /* FormBuilderError.swift */; };
+		AA2CB6731DCDB44800B7CF2B /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2CB6721DCDB44800B7CF2B /* Field.swift */; };
 		FA56B6AF1DBAD38900407C94 /* RuleEqualsToRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA56B6AE1DBAD38900407C94 /* RuleEqualsToRow.swift */; };
 /* End PBXBuildFile section */
 
@@ -190,6 +191,7 @@
 		AA2CB6661DCDB38300B7CF2B /* JScope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JScope.swift; sourceTree = "<group>"; };
 		AA2CB6681DCDB39800B7CF2B /* ReferenceExpander.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferenceExpander.swift; sourceTree = "<group>"; };
 		AA2CB66A1DCDB3AB00B7CF2B /* FormBuilderError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormBuilderError.swift; sourceTree = "<group>"; };
+		AA2CB6721DCDB44800B7CF2B /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
 		FA56B6AE1DBAD38900407C94 /* RuleEqualsToRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RuleEqualsToRow.swift; path = Source/Validations/RuleEqualsToRow.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -386,6 +388,7 @@
 		AA2CB6411DCDA28000B7CF2B /* AutoSchema */ = {
 			isa = PBXGroup;
 			children = (
+				AA2CB6721DCDB44800B7CF2B /* Field.swift */,
 				AA2CB66A1DCDB3AB00B7CF2B /* FormBuilderError.swift */,
 				AA2CB6681DCDB39800B7CF2B /* ReferenceExpander.swift */,
 				AA2CB6661DCDB38300B7CF2B /* JScope.swift */,
@@ -530,6 +533,7 @@
 				2859CD951C7CF1FD0002982F /* Core.swift in Sources */,
 				2859CDBE1C7D137D0002982F /* Form.swift in Sources */,
 				280FBE5F1D873CCE00900064 /* RuleClosure.swift in Sources */,
+				AA2CB6731DCDB44800B7CF2B /* Field.swift in Sources */,
 				28EEC0001C7E36EB00300699 /* SwitchRow.swift in Sources */,
 				287E7D901D7601850065F4DE /* RuleLength.swift in Sources */,
 				AA2CB6671DCDB38300B7CF2B /* JScope.swift in Sources */,
