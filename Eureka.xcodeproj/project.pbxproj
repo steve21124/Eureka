@@ -91,6 +91,7 @@
 		AA2CB6691DCDB39800B7CF2B /* ReferenceExpander.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2CB6681DCDB39800B7CF2B /* ReferenceExpander.swift */; };
 		AA2CB66B1DCDB3AB00B7CF2B /* FormBuilderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2CB66A1DCDB3AB00B7CF2B /* FormBuilderError.swift */; };
 		AA2CB6731DCDB44800B7CF2B /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2CB6721DCDB44800B7CF2B /* Field.swift */; };
+		AA2CB6751DCDB46800B7CF2B /* FormBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2CB6741DCDB46800B7CF2B /* FormBuilder.swift */; };
 		FA56B6AF1DBAD38900407C94 /* RuleEqualsToRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA56B6AE1DBAD38900407C94 /* RuleEqualsToRow.swift */; };
 /* End PBXBuildFile section */
 
@@ -192,6 +193,7 @@
 		AA2CB6681DCDB39800B7CF2B /* ReferenceExpander.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferenceExpander.swift; sourceTree = "<group>"; };
 		AA2CB66A1DCDB3AB00B7CF2B /* FormBuilderError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormBuilderError.swift; sourceTree = "<group>"; };
 		AA2CB6721DCDB44800B7CF2B /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		AA2CB6741DCDB46800B7CF2B /* FormBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormBuilder.swift; sourceTree = "<group>"; };
 		FA56B6AE1DBAD38900407C94 /* RuleEqualsToRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RuleEqualsToRow.swift; path = Source/Validations/RuleEqualsToRow.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -388,6 +390,7 @@
 		AA2CB6411DCDA28000B7CF2B /* AutoSchema */ = {
 			isa = PBXGroup;
 			children = (
+				AA2CB6741DCDB46800B7CF2B /* FormBuilder.swift */,
 				AA2CB6721DCDB44800B7CF2B /* Field.swift */,
 				AA2CB66A1DCDB3AB00B7CF2B /* FormBuilderError.swift */,
 				AA2CB6681DCDB39800B7CF2B /* ReferenceExpander.swift */,
@@ -545,6 +548,7 @@
 				28EEC0211C7E3AD700300699 /* TextAreaRow.swift in Sources */,
 				28EEBFFD1C7E25F100300699 /* Cell.swift in Sources */,
 				28EEC0321C7E64A400300699 /* DatePickerRow.swift in Sources */,
+				AA2CB6751DCDB46800B7CF2B /* FormBuilder.swift in Sources */,
 				FA56B6AF1DBAD38900407C94 /* RuleEqualsToRow.swift in Sources */,
 				28EEBFE81C7E1D7E00300699 /* CellType.swift in Sources */,
 				28EEC0241C7E3B1D00300699 /* PickerRow.swift in Sources */,
