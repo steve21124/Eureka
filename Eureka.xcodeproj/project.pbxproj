@@ -93,6 +93,7 @@
 		AA2CB6731DCDB44800B7CF2B /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2CB6721DCDB44800B7CF2B /* Field.swift */; };
 		AA2CB6751DCDB46800B7CF2B /* FormBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2CB6741DCDB46800B7CF2B /* FormBuilder.swift */; };
 		AA2CB6771DCDB49400B7CF2B /* JSchemaFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2CB6761DCDB49400B7CF2B /* JSchemaFormViewController.swift */; };
+		AA2CB6791DCDB65100B7CF2B /* ResourceFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2CB6781DCDB65100B7CF2B /* ResourceFormViewController.swift */; };
 		FA56B6AF1DBAD38900407C94 /* RuleEqualsToRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA56B6AE1DBAD38900407C94 /* RuleEqualsToRow.swift */; };
 /* End PBXBuildFile section */
 
@@ -196,6 +197,7 @@
 		AA2CB6721DCDB44800B7CF2B /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
 		AA2CB6741DCDB46800B7CF2B /* FormBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormBuilder.swift; sourceTree = "<group>"; };
 		AA2CB6761DCDB49400B7CF2B /* JSchemaFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSchemaFormViewController.swift; sourceTree = "<group>"; };
+		AA2CB6781DCDB65100B7CF2B /* ResourceFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceFormViewController.swift; sourceTree = "<group>"; };
 		FA56B6AE1DBAD38900407C94 /* RuleEqualsToRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RuleEqualsToRow.swift; path = Source/Validations/RuleEqualsToRow.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -392,6 +394,7 @@
 		AA2CB6411DCDA28000B7CF2B /* AutoSchema */ = {
 			isa = PBXGroup;
 			children = (
+				AA2CB6781DCDB65100B7CF2B /* ResourceFormViewController.swift */,
 				AA2CB6761DCDB49400B7CF2B /* JSchemaFormViewController.swift */,
 				AA2CB6741DCDB46800B7CF2B /* FormBuilder.swift */,
 				AA2CB6721DCDB44800B7CF2B /* Field.swift */,
@@ -585,6 +588,7 @@
 				2859CDC01C7D138D0002982F /* Section.swift in Sources */,
 				28EEC0151C7E39C100300699 /* DateRow.swift in Sources */,
 				2859CDE91C7DD78E0002982F /* BaseRow.swift in Sources */,
+				AA2CB6791DCDB65100B7CF2B /* ResourceFormViewController.swift in Sources */,
 				28EEBFF01C7E23F400300699 /* Row.swift in Sources */,
 				28EEC0121C7E399500300699 /* GenericMultipleSelectorRow.swift in Sources */,
 				28EEC0181C7E3A3D00300699 /* MultipleSelectorViewController.swift in Sources */,
