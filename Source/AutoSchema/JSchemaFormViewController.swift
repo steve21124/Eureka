@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class JSchemaFormViewController: FormViewController {
+open class JSchemaFormViewController: FormViewController {
     
     private var _scope:JScope?;
     public var scope:JScope? {
@@ -79,7 +79,7 @@ public class JSchemaFormViewController: FormViewController {
         //DateRow.defaultRowInitializer = { row in row.minimumDate = NSDate() as Date }
     }
     
-    override public func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         
         if (_builtForm == nil && _scope != nil) {
